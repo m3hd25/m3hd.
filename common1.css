@@ -1,0 +1,79 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding-bottom: 50px;
+}
+
+header {
+    background: linear-gradient(to left, #004b6f, #007991);
+    color: white;
+    padding: 40px 20px;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav a {
+    background-color: white;
+    color: #007991;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid #007991;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #007991;
+    color: white;
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #004b6f;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.section {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.img-fluid {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #004b6f;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    margin-top: 40px;
+}
+
+a {
+    color: #00d1b2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
